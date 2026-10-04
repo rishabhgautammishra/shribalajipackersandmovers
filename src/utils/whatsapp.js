@@ -15,7 +15,7 @@ export const createWhatsAppQuoteUrl = (formData = {}) => {
     message
   } = formData;
 
-  let text = `*New Relocation Enquiry - Shiv Ganga Packers & Movers*\n\n`;
+  let text = `*New Relocation Enquiry - Shri Balaji Packers & Movers*\n\n`;
 
   if (name) text += `👤 *Customer Name:* ${name}\n`;
   if (phone) text += `📞 *Contact Phone:* ${phone}\n`;
@@ -26,7 +26,7 @@ export const createWhatsAppQuoteUrl = (formData = {}) => {
   if (moveDate) text += `📅 *Planned Move Date:* ${moveDate}\n`;
   if (message) text += `💬 *Additional Note:* ${message}\n`;
 
-  text += `\n_Sent via Shiv Ganga Packers & Movers Website Quote Form_`;
+  text += `\n_Sent via Shri Balaji Packers & Movers Website Quote Form_`;
 
   const encodedText = encodeURIComponent(text);
   return `https://wa.me/${BUSINESS_INFO.whatsappRaw}?text=${encodedText}`;

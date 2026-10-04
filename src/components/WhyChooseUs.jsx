@@ -52,7 +52,7 @@ export default function WhyChooseUs() {
             Our Core Commitments
           </div>
           <h2 className="text-3xl sm:text-4xl font-extrabold text-navy tracking-tight">
-            Why Choose Shiv Ganga?
+            Why Choose Shri Balaji?
           </h2>
           <p className="text-base sm:text-lg text-slate-600 font-normal">
             We focus on reliability, clear communication, and careful handling every single time.

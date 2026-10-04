@@ -7,8 +7,8 @@ export default function PrivacyPolicyPage() {
   return (
     <>
       <SEOHead
-        title="Privacy Policy | Shiv Ganga Packers & Movers"
-        description="Privacy policy for Shiv Ganga Packers & Movers Kanpur. Details on how customer contact information and move details are handled securely."
+        title="Privacy Policy | Shri Balaji Packers & Movers"
+        description="Privacy policy for Shri Balaji Packers & Movers Kanpur. Details on how customer contact information and move details are handled securely."
         canonicalPath="/privacy-policy"
       />
 

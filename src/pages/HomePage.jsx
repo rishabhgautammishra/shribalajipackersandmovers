@@ -20,8 +20,8 @@ export default function HomePage() {
   return (
     <>
       <SEOHead
-        title="Shiv Ganga Packers & Movers | Safe Shift • Secure Future"
-        description="Shiv Ganga Packers & Movers provides professional home shifting, office relocation, packing, transportation and moving services in Kanpur."
+        title="Shri Balaji Packers & Movers | Car Carrier & Safe Relocation"
+        description="Shri Balaji Packers & Movers provides professional car carrier, vehicle transport, home shifting, and moving services in Kanpur and nationwide."
         canonicalPath="/"
       />
 
@@ -82,7 +82,7 @@ export default function HomePage() {
                 <div className="bg-white rounded-3xl p-6 sm:p-8 border border-slate-200/90 shadow-card space-y-6">
                   <div>
                     <h3 className="text-xl font-bold text-navy mb-1">
-                      Shiv Ganga Packers & Movers
+                      Shri Balaji Packers & Movers
                     </h3>
                     <p className="text-xs text-slate-500">
                       Central Relocation Office, Kanpur

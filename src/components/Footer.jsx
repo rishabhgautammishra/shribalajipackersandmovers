@@ -25,19 +25,19 @@ export default function Footer() {
           {/* Col 1: Brand & Bio (4 Cols) */}
           <div className="lg:col-span-4 space-y-4 text-left">
             <Link to="/" className="flex items-center gap-3">
-              <div className="h-12 w-auto max-w-[120px] rounded-xl bg-white p-1 flex items-center justify-center shadow-md">
+              <div className="h-12 w-auto rounded-xl bg-slate-950 border border-amber-500/40 p-1 flex items-center justify-center shadow-md">
                 <img
                   src="/logo.png"
-                  alt="Shiv Ganga Packers & Movers Logo"
-                  className="h-10 w-auto object-contain"
+                  alt="Shri Balaji Packers & Movers Logo"
+                  className="h-10 w-auto object-contain rounded-lg"
                 />
               </div>
               <div className="flex flex-col">
-                <span className="font-bold text-xl text-white tracking-tight leading-tight">
-                  Shiv Ganga Packers & Movers
+                <span className="font-bold text-lg sm:text-xl text-white tracking-tight leading-tight">
+                  Shri Balaji Packers & Movers
                 </span>
-                <span className="text-[11px] text-saffron-400 font-medium uppercase tracking-wider">
-                  Safe Shift • Secure Future
+                <span className="text-[11px] text-amber-400 font-medium uppercase tracking-wider">
+                  Car Carrier & Relocation Specialist
                 </span>
               </div>
             </Link>
@@ -254,7 +254,7 @@ export default function Footer() {
 
         {/* Bottom Bar: Copyright & Legal */}
         <div className="pt-8 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-slate-400">
-          <p>© 2026 Shiv Ganga Packers & Movers. All rights reserved.</p>
+          <p>© 2026 Shri Balaji Packers & Movers. All rights reserved.</p>
 
           <div className="flex items-center gap-6">
             <Link to="/privacy-policy" className="hover:text-white transition-colors">

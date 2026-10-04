@@ -133,7 +133,7 @@ export default function GallerySection() {
                   {activeImage.category}
                 </span>
                 <span className="text-slate-300">•</span>
-                <span className="text-xs text-slate-500">Shiv Ganga Movers standard</span>
+                <span className="text-xs text-slate-500">Shri Balaji Movers standard</span>
               </div>
               <h3 className="text-lg font-bold text-navy mb-1">{activeImage.title}</h3>
               <p className="text-sm text-slate-600">{activeImage.caption}</p>

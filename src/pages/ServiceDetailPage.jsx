@@ -48,8 +48,8 @@ export default function ServiceDetailPage() {
   return (
     <>
       <SEOHead
-        title={`${service.title} in Kanpur | Shiv Ganga Packers & Movers`}
-        description={`${service.shortDescription} Door-to-door ${service.title.toLowerCase()} services in Kanpur by Shiv Ganga Packers & Movers.`}
+        title={`${service.title} in Kanpur | Shri Balaji Packers & Movers`}
+        description={`${service.shortDescription} Door-to-door ${service.title.toLowerCase()} services in Kanpur by Shri Balaji Packers & Movers.`}
         canonicalPath={`/services/${service.slug}`}
       />
 

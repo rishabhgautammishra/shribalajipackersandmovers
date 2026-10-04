@@ -7,7 +7,7 @@ export default function NotFoundPage() {
   return (
     <>
       <SEOHead
-        title="Page Not Found | Shiv Ganga Packers & Movers"
+        title="Page Not Found | Shri Balaji Packers & Movers"
         description="The requested page could not be found."
         canonicalPath="/404"
       />

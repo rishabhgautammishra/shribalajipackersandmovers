@@ -33,8 +33,8 @@ export default function ServicesOverviewPage() {
   return (
     <>
       <SEOHead
-        title="Relocation & Moving Services in Kanpur | Shiv Ganga Packers & Movers"
-        description="Explore our complete range of moving services in Kanpur: Home shifting, office relocation, car & bike transport, packing and storage solutions."
+        title="Relocation & Moving Services in Kanpur | Shri Balaji Packers & Movers"
+        description="Explore our complete range of moving services in Kanpur: Car carrier, vehicle transport, home shifting, office relocation, and packing solutions."
         canonicalPath="/services"
       />
 

@@ -7,8 +7,8 @@ export default function TermsPage() {
   return (
     <>
       <SEOHead
-        title="Terms & Conditions | Shiv Ganga Packers & Movers"
-        description="Terms and conditions for relocation, household shifting and transport services by Shiv Ganga Packers & Movers Kanpur."
+        title="Terms & Conditions | Shri Balaji Packers & Movers"
+        description="Terms and conditions for relocation, household shifting, car carriers and transport services by Shri Balaji Packers & Movers Kanpur."
         canonicalPath="/terms-and-conditions"
       />
 

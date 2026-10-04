@@ -7,7 +7,7 @@ export const SERVICES_LIST = [
     icon: "Home",
     badge: "Most Popular",
     heroImage: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80",
-    overview: "Moving your household shouldn't be exhausting. Shiv Ganga Packers & Movers provides complete, end-to-end home shifting services designed to handle every single belonging—from bulky wooden furniture to delicate glassware—with utmost care and precision.",
+    overview: "Moving your household shouldn't be exhausting. Shri Balaji Packers & Movers provides complete, end-to-end home shifting services designed to handle every single belonging—from bulky wooden furniture to delicate glassware—with utmost care and precision.",
     highlights: [
       "Multi-layer bubble wrap & corrugated sheet packing",
       "Furniture dismantling & assembly by trained technicians",

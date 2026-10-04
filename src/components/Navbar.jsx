@@ -47,27 +47,27 @@ export default function Navbar({ onOpenQuoteModal }) {
           {/* Logo & Business Brand */}
           <Link 
             to="/" 
-            className="flex items-center gap-2.5 sm:gap-3.5 group focus:outline-none focus:ring-2 focus:ring-saffron-500 rounded-xl py-0.5 px-1 transition-all"
-            aria-label="Shiv Ganga Packers and Movers Home"
+            className="flex items-center gap-2.5 sm:gap-3 group focus:outline-none focus:ring-2 focus:ring-amber-500 rounded-xl py-0.5 px-1 transition-all"
+            aria-label="Shri Balaji Packers and Movers Home"
           >
-            <div className="relative flex items-center justify-center transition-transform duration-200 group-hover:scale-105">
+            <div className="relative flex items-center justify-center p-1 rounded-xl bg-slate-950 border border-amber-500/30 shadow-sm transition-transform duration-200 group-hover:scale-105">
               <img
                 src="/logo.png"
-                alt="Shiv Ganga Packers & Movers"
-                className="h-12 sm:h-14 md:h-16 w-auto object-contain rounded-lg bg-white"
+                alt="Shri Balaji Packers & Movers"
+                className="h-10 sm:h-12 w-auto object-contain rounded-lg"
               />
             </div>
             <div className="flex flex-col justify-center">
               <div className="flex items-center gap-1.5">
-                <span className="font-extrabold text-lg sm:text-xl text-navy tracking-tight leading-none">
-                  Shiv Ganga
+                <span className="font-extrabold text-base sm:text-lg md:text-xl text-slate-900 tracking-tight leading-none">
+                  Shri Balaji
                 </span>
-                <span className="text-[10px] font-bold px-1.5 py-0.5 rounded-md bg-saffron-50 text-saffron-700 border border-saffron-200 leading-none">
-                  Packers
+                <span className="text-[10px] font-bold px-1.5 py-0.5 rounded-md bg-amber-50 text-amber-800 border border-amber-300 leading-none">
+                  Packers & Movers
                 </span>
               </div>
-              <span className="text-[10px] sm:text-[11px] font-bold text-saffron-600 tracking-wider uppercase mt-1">
-                Safe Shift • Secure Future
+              <span className="text-[10px] sm:text-[11px] font-bold text-amber-700 tracking-wider uppercase mt-1">
+                Car Carrier & Relocation Specialist
               </span>
             </div>
           </Link>
@@ -214,7 +214,7 @@ export default function Navbar({ onOpenQuoteModal }) {
             <a
               href={`tel:${BUSINESS_INFO.phoneRaw}`}
               className="flex items-center gap-2.5 px-3 py-2 rounded-xl text-slate-700 hover:text-navy hover:bg-slate-50 font-semibold transition-all group"
-              title="Call Shiv Ganga Packers & Movers"
+              title="Call Shri Balaji Packers & Movers"
             >
               <div className="w-8 h-8 rounded-lg bg-slate-100 group-hover:bg-navy group-hover:text-white flex items-center justify-center text-slate-700 transition-colors">
                 <Phone className="w-4 h-4" />
@@ -239,7 +239,7 @@ export default function Navbar({ onOpenQuoteModal }) {
             {/* Direct Call Button */}
             <a
               href={`tel:${BUSINESS_INFO.phoneRaw}`}
-              aria-label="Call Shiv Ganga Packers and Movers"
+              aria-label="Call Shri Balaji Packers and Movers"
               className="w-9 h-9 rounded-lg bg-slate-100 flex items-center justify-center text-slate-700 active:bg-slate-200"
             >
               <Phone className="w-4 h-4" />
