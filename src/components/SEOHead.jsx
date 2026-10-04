@@ -12,7 +12,7 @@ export default function SEOHead({
 }) {
   const location = useLocation();
   const currentPath = canonicalPath || location.pathname;
-  const canonicalUrl = `https://shivgangapackers.in${currentPath === '/' ? '' : currentPath}`;
+  const canonicalUrl = `https://shribalajipackersandmovers.shop${currentPath === '/' ? '' : currentPath}`;
 
   useEffect(() => {
     // Update Title
