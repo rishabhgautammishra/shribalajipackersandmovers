@@ -95,7 +95,7 @@ export default function LeadQuoteForm({
         <div className="space-y-2">
           <h3 className="text-2xl font-bold text-navy">Quote Request Received!</h3>
           <p className="text-slate-600 text-sm max-w-md mx-auto">
-            Thank you, <strong>{formData.name}</strong>. Our Kanpur moving coordinator will review your move details and contact you shortly at <strong>{formData.phone}</strong>.
+            Thank you, <strong>{formData.name}</strong>. Our moving coordinator will review your move details and contact you shortly at <strong>{formData.phone}</strong>.
           </p>
         </div>
 

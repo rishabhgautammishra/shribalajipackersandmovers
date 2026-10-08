@@ -52,8 +52,8 @@ export default function GetAQuotePage() {
   return (
     <>
       <SEOHead
-        title="Get a Free Moving Quote | Shri Balaji Packers & Movers Kanpur"
-        description="Calculate your relocation and vehicle transport cost estimate and request a free moving quote from Shri Balaji Packers & Movers in Kanpur."
+        title={`Get a Free Moving Quote | ${BUSINESS_INFO.name}`}
+        description={`Calculate your relocation and vehicle transport cost estimate and request a free moving quote from ${BUSINESS_INFO.name}.`}
         canonicalPath="/get-a-quote"
       />
 
@@ -178,7 +178,7 @@ export default function GetAQuotePage() {
 
                 {/* Trust Points */}
                 <div className="bg-white rounded-3xl p-6 border border-slate-200/90 shadow-subtle space-y-3.5">
-                  <h3 className="text-sm font-bold text-navy">Why Book With Shri Balaji?</h3>
+                  <h3 className="text-sm font-bold text-navy">Why Book With {BUSINESS_INFO.shortName}?</h3>
                   <div className="space-y-2.5 text-xs text-slate-600">
                     <div className="flex items-center gap-2">
                       <CheckCircle2 className="w-4 h-4 text-emerald-600 flex-shrink-0" />

@@ -7,8 +7,8 @@ export default function PrivacyPolicyPage() {
   return (
     <>
       <SEOHead
-        title="Privacy Policy | Shri Balaji Packers & Movers"
-        description="Privacy policy for Shri Balaji Packers & Movers Kanpur. Details on how customer contact information and move details are handled securely."
+        title={`Privacy Policy | ${BUSINESS_INFO.name}`}
+        description={`Privacy policy for ${BUSINESS_INFO.name}. Details on how customer contact information and move details are handled securely.`}
         canonicalPath="/privacy-policy"
       />
 

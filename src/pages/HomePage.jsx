@@ -20,8 +20,8 @@ export default function HomePage() {
   return (
     <>
       <SEOHead
-        title="Shri Balaji Packers & Movers | Car Carrier & Safe Relocation"
-        description="Shri Balaji Packers & Movers provides professional car carrier, vehicle transport, home shifting, and moving services in Kanpur and nationwide."
+        title={`${BUSINESS_INFO.name} | Safe Shift • Secure Future`}
+        description={`${BUSINESS_INFO.name} provides professional car carrier, vehicle transport, home shifting, and moving services in Lucknow, Kanpur and nationwide.`}
         canonicalPath="/"
       />
 
@@ -82,10 +82,10 @@ export default function HomePage() {
                 <div className="bg-white rounded-3xl p-6 sm:p-8 border border-slate-200/90 shadow-card space-y-6">
                   <div>
                     <h3 className="text-xl font-bold text-navy mb-1">
-                      Shri Balaji Packers & Movers
+                      {BUSINESS_INFO.name}
                     </h3>
                     <p className="text-xs text-slate-500">
-                      Central Relocation Office, Kanpur
+                      Central Relocation Office, {BUSINESS_INFO.address.city}
                     </p>
                   </div>
 

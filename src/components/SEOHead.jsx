@@ -6,8 +6,8 @@ import { useLocation } from 'react-router-dom';
  * Meta description, OpenGraph, and Canonical URL per page.
  */
 export default function SEOHead({
-  title = "Shri Balaji Packers & Movers | Safe Shift • Secure Future",
-  description = "Shri Balaji Packers & Movers provides professional car carrier, home shifting, office relocation, vehicle transportation and moving services in Kanpur and across India.",
+  title = "SHREE BALAJI PACKERS AND MOVERS | Safe Shift • Secure Future",
+  description = "SHREE BALAJI PACKERS AND MOVERS provides professional car carrier, home shifting, office relocation, vehicle transportation and moving services in Lucknow, Kanpur and across India.",
   canonicalPath = ""
 }) {
   const location = useLocation();

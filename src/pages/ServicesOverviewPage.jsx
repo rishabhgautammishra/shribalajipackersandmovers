@@ -29,12 +29,14 @@ const ICON_MAP = {
   Warehouse
 };
 
+import { BUSINESS_INFO } from '../data/businessInfo';
+
 export default function ServicesOverviewPage() {
   return (
     <>
       <SEOHead
-        title="Relocation & Moving Services in Kanpur | Shri Balaji Packers & Movers"
-        description="Explore our complete range of moving services in Kanpur: Car carrier, vehicle transport, home shifting, office relocation, and packing solutions."
+        title={`Relocation & Moving Services | ${BUSINESS_INFO.name}`}
+        description={`Explore our complete range of moving services: Car carrier, vehicle transport, home shifting, office relocation, and packing solutions by ${BUSINESS_INFO.name}.`}
         canonicalPath="/services"
       />
 

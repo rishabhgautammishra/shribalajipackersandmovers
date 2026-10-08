@@ -48,8 +48,8 @@ export default function ServiceDetailPage() {
   return (
     <>
       <SEOHead
-        title={`${service.title} in Kanpur | Shri Balaji Packers & Movers`}
-        description={`${service.shortDescription} Door-to-door ${service.title.toLowerCase()} services in Kanpur by Shri Balaji Packers & Movers.`}
+        title={`${service.title} | ${BUSINESS_INFO.name}`}
+        description={`${service.shortDescription} Door-to-door ${service.title.toLowerCase()} services by ${BUSINESS_INFO.name}.`}
         canonicalPath={`/services/${service.slug}`}
       />
 
@@ -78,7 +78,7 @@ export default function ServiceDetailPage() {
                 </div>
 
                 <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-navy tracking-tight leading-tight">
-                  {service.title} Services in Kanpur
+                  {service.title} Services
                 </h1>
 
                 <p className="text-base sm:text-lg text-slate-600 leading-relaxed font-normal">
@@ -96,7 +96,7 @@ export default function ServiceDetailPage() {
                   </a>
 
                   <a
-                    href={getDirectWhatsAppUrl(`Hi, I would like to inquire about ${service.title} services in Kanpur.`)}
+                    href={getDirectWhatsAppUrl(`Hi, I would like to inquire about ${service.title} services with ${BUSINESS_INFO.name}.`)}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 px-5 py-3 rounded-xl bg-emerald-600 text-white text-sm font-bold hover:bg-emerald-700 transition-colors shadow-sm"

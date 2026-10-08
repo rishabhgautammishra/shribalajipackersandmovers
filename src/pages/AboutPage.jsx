@@ -9,8 +9,8 @@ export default function AboutPage() {
   return (
     <>
       <SEOHead
-        title="About Us | Shri Balaji Packers & Movers Kanpur"
-        description="Learn about Shri Balaji Packers & Movers & Car Carrier - Kanpur's dedicated relocation and moving specialists focused on safe handling, transparent pricing, and dependable service."
+        title={`About Us | ${BUSINESS_INFO.name}`}
+        description={`Learn about ${BUSINESS_INFO.name} & Car Carrier - dedicated relocation and moving specialists focused on safe handling, transparent pricing, and dependable service.`}
         canonicalPath="/about"
       />
 
@@ -22,13 +22,13 @@ export default function AboutPage() {
             <div className="max-w-3xl text-left space-y-4">
               <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-saffron-50 text-saffron-800 text-xs font-bold uppercase tracking-wider">
                 <ShieldCheck className="w-4 h-4 text-saffron-600" />
-                About Shri Balaji Packers & Movers
+                About {BUSINESS_INFO.name}
               </div>
               <h1 className="text-4xl sm:text-5xl font-extrabold text-navy tracking-tight leading-tight">
                 Dedicated to Safe, Stress-Free Relocation.
               </h1>
               <p className="text-lg text-slate-600 leading-relaxed font-normal">
-                Based in Kanpur, Uttar Pradesh, we specialize in high-care residential, vehicle transportation, car carrier, and commercial moving solutions tailored to simplify your relocation journey.
+                Based in Lucknow, Uttar Pradesh, we specialize in high-care residential, vehicle transportation, car carrier, and commercial moving solutions tailored to simplify your relocation journey across Uttar Pradesh and India.
               </p>
             </div>
           </div>
@@ -52,15 +52,15 @@ export default function AboutPage() {
                 </p>
 
                 <p className="text-slate-600 text-base leading-relaxed">
-                  At <strong>Shri Balaji Packers & Movers</strong>, our philosophy is grounded in straightforward integrity: transparent pricing without hidden surprise fees, trained moving personnel who treat your belongings as their own, and clear communication from the moment you request a quote until the last item is placed in your new room.
+                  At <strong>{BUSINESS_INFO.name}</strong>, our philosophy is grounded in straightforward integrity: transparent pricing without hidden surprise fees, trained moving personnel who treat your belongings as their own, and clear communication from the moment you request a quote until the last item is placed in your new room.
                 </p>
 
                 <div className="space-y-3 pt-2">
                   <div className="flex items-start gap-3">
                     <CheckCircle2 className="w-5 h-5 text-emerald-600 flex-shrink-0 mt-0.5" />
                     <div>
-                      <h3 className="text-sm font-bold text-navy">Local Kanpur Expertise</h3>
-                      <p className="text-xs text-slate-500">In-depth familiarity with city routes, society permissions, and traffic regulations.</p>
+                      <h3 className="text-sm font-bold text-navy">Extensive Regional Route Expertise</h3>
+                      <p className="text-xs text-slate-500">In-depth familiarity with city routes, society permissions, and highway transport regulations.</p>
                     </div>
                   </div>
 

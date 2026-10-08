@@ -48,19 +48,19 @@ export default function Navbar({ onOpenQuoteModal }) {
           <Link 
             to="/" 
             className="flex items-center gap-2.5 sm:gap-3 group focus:outline-none focus:ring-2 focus:ring-amber-500 rounded-xl py-0.5 px-1 transition-all"
-            aria-label="Shri Balaji Packers and Movers Home"
+            aria-label={`${BUSINESS_INFO.name} Home`}
           >
             <div className="relative flex items-center justify-center p-1 rounded-xl bg-slate-950 border border-amber-500/30 shadow-sm transition-transform duration-200 group-hover:scale-105">
               <img
                 src="/logo.png"
-                alt="Shri Balaji Packers & Movers"
+                alt={BUSINESS_INFO.name}
                 className="h-10 sm:h-12 w-auto object-contain rounded-lg"
               />
             </div>
             <div className="flex flex-col justify-center">
               <div className="flex items-center gap-1.5">
                 <span className="font-extrabold text-base sm:text-lg md:text-xl text-slate-900 tracking-tight leading-none">
-                  Shri Balaji
+                  {BUSINESS_INFO.shortName}
                 </span>
                 <span className="text-[10px] font-bold px-1.5 py-0.5 rounded-md bg-amber-50 text-amber-800 border border-amber-300 leading-none">
                   Packers & Movers
@@ -214,7 +214,7 @@ export default function Navbar({ onOpenQuoteModal }) {
             <a
               href={`tel:${BUSINESS_INFO.phoneRaw}`}
               className="flex items-center gap-2.5 px-3 py-2 rounded-xl text-slate-700 hover:text-navy hover:bg-slate-50 font-semibold transition-all group"
-              title="Call Shri Balaji Packers & Movers"
+              title={`Call ${BUSINESS_INFO.name}`}
             >
               <div className="w-8 h-8 rounded-lg bg-slate-100 group-hover:bg-navy group-hover:text-white flex items-center justify-center text-slate-700 transition-colors">
                 <Phone className="w-4 h-4" />
@@ -239,7 +239,7 @@ export default function Navbar({ onOpenQuoteModal }) {
             {/* Direct Call Button */}
             <a
               href={`tel:${BUSINESS_INFO.phoneRaw}`}
-              aria-label="Call Shri Balaji Packers and Movers"
+              aria-label={`Call ${BUSINESS_INFO.name}`}
               className="w-9 h-9 rounded-lg bg-slate-100 flex items-center justify-center text-slate-700 active:bg-slate-200"
             >
               <Phone className="w-4 h-4" />

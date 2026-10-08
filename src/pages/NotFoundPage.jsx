@@ -3,11 +3,13 @@ import { Link } from 'react-router-dom';
 import SEOHead from '../components/SEOHead';
 import { Home, ArrowLeft } from 'lucide-react';
 
+import { BUSINESS_INFO } from '../data/businessInfo';
+
 export default function NotFoundPage() {
   return (
     <>
       <SEOHead
-        title="Page Not Found | Shri Balaji Packers & Movers"
+        title={`Page Not Found | ${BUSINESS_INFO.name}`}
         description="The requested page could not be found."
         canonicalPath="/404"
       />

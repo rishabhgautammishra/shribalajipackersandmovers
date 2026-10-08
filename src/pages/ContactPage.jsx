@@ -10,8 +10,8 @@ export default function ContactPage() {
   return (
     <>
       <SEOHead
-        title="Contact Us | Shri Balaji Packers & Movers Kanpur"
-        description="Get in touch with Shri Balaji Packers & Movers in Kanpur. Call, WhatsApp, or submit your move requirements for a free, transparent relocation quote."
+        title={`Contact Us | ${BUSINESS_INFO.name}`}
+        description={`Get in touch with ${BUSINESS_INFO.name}. Call, WhatsApp, or submit your move requirements for a free, transparent relocation quote.`}
         canonicalPath="/contact"
       />
 
@@ -29,7 +29,7 @@ export default function ContactPage() {
                 We're Here to Help You Move.
               </h1>
               <p className="text-base sm:text-lg text-slate-600 leading-relaxed font-normal">
-                Whether you have an immediate moving date, vehicle shipment, or simply want an honest quote estimate, connect with our Kanpur team through phone, WhatsApp, or our quick form.
+                Whether you have an immediate moving date, vehicle shipment, or simply want an honest quote estimate, connect with our team through phone, WhatsApp, or our quick form.
               </p>
             </div>
           </div>
@@ -50,7 +50,7 @@ export default function ContactPage() {
                       Head Office & Dispatch Center
                     </h2>
                     <p className="text-xs text-slate-500 mt-1">
-                      Shri Balaji Packers & Movers
+                      {BUSINESS_INFO.name}
                     </p>
                   </div>
 

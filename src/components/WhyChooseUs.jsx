@@ -41,6 +41,8 @@ const REASONS = [
   }
 ];
 
+import { BUSINESS_INFO } from '../data/businessInfo';
+
 export default function WhyChooseUs() {
   return (
     <section className="py-16 md:py-24 bg-slate-50/70 border-b border-slate-100">
@@ -52,7 +54,7 @@ export default function WhyChooseUs() {
             Our Core Commitments
           </div>
           <h2 className="text-3xl sm:text-4xl font-extrabold text-navy tracking-tight">
-            Why Choose Shri Balaji?
+            Why Choose {BUSINESS_INFO.shortName}?
           </h2>
           <p className="text-base sm:text-lg text-slate-600 font-normal">
             We focus on reliability, clear communication, and careful handling every single time.

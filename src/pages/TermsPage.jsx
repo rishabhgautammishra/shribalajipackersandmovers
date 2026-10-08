@@ -7,8 +7,8 @@ export default function TermsPage() {
   return (
     <>
       <SEOHead
-        title="Terms & Conditions | Shri Balaji Packers & Movers"
-        description="Terms and conditions for relocation, household shifting, car carriers and transport services by Shri Balaji Packers & Movers Kanpur."
+        title={`Terms & Conditions | ${BUSINESS_INFO.name}`}
+        description={`Terms and conditions for relocation, household shifting, car carriers and transport services by ${BUSINESS_INFO.name}.`}
         canonicalPath="/terms-and-conditions"
       />
 

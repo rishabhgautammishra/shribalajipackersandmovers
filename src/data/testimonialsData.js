@@ -15,7 +15,7 @@ export const PLACEHOLDER_TESTIMONIALS = [
     location: "Swaroop Nagar, Kanpur",
     serviceType: "Household & Car Transport",
     date: "Recent Move",
-    quote: "Customer testimonial will appear here. Share your real moving experience with Shri Balaji Packers & Movers to help fellow residents choose trusted services.",
+    quote: "Customer testimonial will appear here. Share your real moving experience with SHREE BALAJI PACKERS AND MOVERS to help fellow residents choose trusted services.",
     stars: 5,
     isPlaceholder: true
   },

@@ -38,7 +38,7 @@ export default function HeroSection() {
             {/* Small Badge */}
             <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-saffron-50 border border-saffron-200/80 text-saffron-800 text-xs md:text-sm font-semibold shadow-subtle">
               <span className="w-2 h-2 rounded-full bg-saffron-600 animate-pulse" />
-              Trusted Relocation Services in Kanpur
+              Trusted Relocation Services in Lucknow & Nationwide
             </div>
 
             {/* Main Headline */}
@@ -115,7 +115,7 @@ export default function HeroSection() {
                     <ShieldCheck className="w-4 h-4 text-saffron-400" />
                     Verified Moving Crew & Equipment
                   </span>
-                  <span className="text-slate-300">Kanpur Hub</span>
+                  <span className="text-slate-300">Lucknow & Central UP Hub</span>
                 </div>
               </div>
 

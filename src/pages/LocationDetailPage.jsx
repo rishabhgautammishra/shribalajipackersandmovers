@@ -89,7 +89,7 @@ export default function LocationDetailPage() {
             <div className="p-4 rounded-2xl bg-amber-50 border border-amber-200 text-amber-900 text-xs flex items-center gap-3 text-left">
               <Info className="w-5 h-5 text-amber-600 flex-shrink-0" />
               <div>
-                <strong>Location Architecture Notice:</strong> {locationData.placeholderNotice} All intercity shifting to/from this hub is fully operational via our Kanpur headquarters.
+                <strong>Location Architecture Notice:</strong> {locationData.placeholderNotice} All intercity shifting to/from this hub is fully operational via our {BUSINESS_INFO.address.city} headquarters.
               </div>
             </div>
           </div>

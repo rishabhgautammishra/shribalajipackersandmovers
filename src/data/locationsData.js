@@ -1,15 +1,48 @@
 export const LOCATIONS_DATA = {
+  "lucknow": {
+    slug: "packers-movers-lucknow",
+    city: "Lucknow",
+    state: "Uttar Pradesh",
+    status: "Headquarters & Operational Hub",
+    title: "Packers and Movers in Lucknow | SHREE BALAJI PACKERS AND MOVERS",
+    metaDescription: "Looking for top-rated packers and movers in Lucknow? SHREE BALAJI PACKERS AND MOVERS provides safe home shifting, office relocation and car transport across Lucknow & India.",
+    heroBadge: "Head Office & Primary Hub",
+    headline: "Trusted Packers & Movers in Lucknow",
+    subheadline: "Professional household shifting, car carrier, office relocation, and intercity moving services across all localities of Lucknow with verified crews and door-to-door safety.",
+    isPrimary: true,
+    address: "E-4/357, Sector O, Mansarovar Yojna, Lucknow, Uttar Pradesh - 226012",
+    localities: [
+      { name: "Mansarovar Yojna & Sector O", desc: "Headquarters & dedicated prompt packing/moving crews." },
+      { name: "Gomti Nagar & Extension", desc: "Premium apartment, villa & corporate shifting." },
+      { name: "Indira Nagar", desc: "Fast residential household packing and moving." },
+      { name: "Alambagh & Transport Nagar", desc: "Logistics hub, vehicle transport and local shifting." },
+      { name: "Hazratganj", desc: "Commercial, office and residential moves." },
+      { name: "Mahanagar", desc: "Delicate household goods and furniture moving." },
+      { name: "Jankipuram & Vikas Nagar", desc: "Affordable family shifting and student relocation." },
+      { name: "Aashiana & South City", desc: "Safe residential door-to-door relocation." }
+    ],
+    routes: [
+      { to: "Kanpur", distance: "85 km", time: "2-3 Hours", type: "Daily Dedicated Corridor" },
+      { to: "Noida / Delhi NCR", distance: "520 km", time: "24 Hours", type: "Express Interstate Service" },
+      { to: "Prayagraj / Varanasi", distance: "200-300 km", time: "Same / Next Day", type: "Regular Regional Route" },
+      { to: "Mumbai / Bengaluru", distance: "1,300+ km", time: "3 - 5 Days Delivery", type: "Long-haul Container Service" }
+    ],
+    faqs: [
+      { q: "Where is SHREE BALAJI PACKERS AND MOVERS located in Lucknow?", a: "Our head office is located at E-4/357, Sector O, Mansarovar Yojna, Lucknow, Uttar Pradesh - 226012. We serve all areas of Lucknow and nationwide." },
+      { q: "How quickly can you arrange a move in Lucknow?", a: "For local shifting within Lucknow, we can arrange moving teams within 24 hours and same-day express service on demand." }
+    ]
+  },
   "kanpur": {
     slug: "packers-movers-kanpur",
     city: "Kanpur",
     state: "Uttar Pradesh",
     status: "Active Operational Hub",
-    title: "Packers and Movers in Kanpur | Shri Balaji Packers & Movers",
-    metaDescription: "Looking for top-rated packers and movers in Kanpur? Shri Balaji Packers & Movers provides safe home shifting, office relocation and car transport across Kanpur.",
-    heroBadge: "Primary Service Hub",
+    title: "Packers and Movers in Kanpur | SHREE BALAJI PACKERS AND MOVERS",
+    metaDescription: "Looking for top-rated packers and movers in Kanpur? SHREE BALAJI PACKERS AND MOVERS provides safe home shifting, office relocation and car transport across Kanpur.",
+    heroBadge: "Primary Operating Hub",
     headline: "Trusted Packers & Movers in Kanpur",
     subheadline: "Professional household shifting, office relocation, and intercity moving services across all localities of Kanpur with verified crews and door-to-door safety.",
-    isPrimary: true,
+    isPrimary: false,
     localities: [
       { name: "Civil Lines", desc: "Premium household relocation and corporate shifting services." },
       { name: "Swaroop Nagar", desc: "Careful flat and bungalow shifting with delicate item handling." },
@@ -36,48 +69,17 @@ export const LOCATIONS_DATA = {
       { q: "Are all areas in Kanpur covered by your team?", a: "Yes, our moving vehicles and crews operate across all sectors of Kanpur including South Kanpur, Cantt, North Kanpur, and rural industrial outskirts." }
     ]
   },
-  "lucknow": {
-    slug: "packers-movers-lucknow",
-    city: "Lucknow",
-    state: "Uttar Pradesh",
-    status: "Regular Corridor Hub",
-    title: "Packers and Movers in Lucknow | Shri Balaji Packers & Movers",
-    metaDescription: "Reliable packers and movers services connecting Lucknow and Kanpur. Safe household and corporate relocation.",
-    heroBadge: "Intercity Corridor Service",
-    headline: "Packers & Movers Lucknow",
-    subheadline: "Direct corridor services connecting Lucknow with Kanpur, Delhi NCR, and major destinations across North India.",
-    isPrimary: false,
-    isPlaceholder: true,
-    placeholderNotice: "Note: This location page structure is ready. Specific local branch details and team allocations for Lucknow will be updated shortly.",
-    localities: [
-      { name: "Gomti Nagar", desc: "Residential & corporate shifting" },
-      { name: "Indira Nagar", desc: "Household moving services" },
-      { name: "Alambagh", desc: "Local and intercity transit point" },
-      { name: "Hazratganj", desc: "Commercial & residential moves" },
-      { name: "Mahanagar", desc: "Safe household shifting" },
-      { name: "Vikas Nagar", desc: "Reliable door-to-door relocation" }
-    ],
-    routes: [
-      { to: "Kanpur", distance: "85 km", time: "2-3 Hours", type: "Daily Corridor" },
-      { to: "Delhi NCR", distance: "520 km", time: "24 Hours", type: "Express Transit" }
-    ],
-    faqs: [
-      { q: "Do you provide direct Kanpur to Lucknow relocation?", a: "Yes, we run regular direct shuttle services between Kanpur and Lucknow." }
-    ]
-  },
   "noida": {
     slug: "packers-movers-noida",
     city: "Noida",
     state: "Uttar Pradesh / Delhi NCR",
     status: "NCR Branch Network",
-    title: "Packers and Movers in Noida | Shri Balaji Packers & Movers",
+    title: "Packers and Movers in Noida | SHREE BALAJI PACKERS AND MOVERS",
     metaDescription: "Professional packing and moving services in Noida and Greater Noida. High-rise apartment shifting, corporate relocation and car transport.",
     heroBadge: "NCR Network",
     headline: "Packers & Movers Noida",
     subheadline: "Seamless relocation solutions for high-rise apartments, IT parks, and residential sectors across Noida and Greater Noida.",
     isPrimary: false,
-    isPlaceholder: true,
-    placeholderNotice: "Note: This location page structure is ready. Specific local branch details and team allocations for Noida will be updated shortly.",
     localities: [
       { name: "Noida Sector 62 & 63", desc: "Corporate and IT office moving" },
       { name: "Noida Sector 50 & 76", desc: "High-rise apartment shifting" },
@@ -85,8 +87,8 @@ export const LOCATIONS_DATA = {
       { name: "Greater Noida West", desc: "Multi-story residential moves" }
     ],
     routes: [
-      { to: "Kanpur", distance: "450 km", time: "18-24 Hours", type: "Direct Highway Transit" },
-      { to: "Lucknow", distance: "500 km", time: "24 Hours", type: "Regular Route" }
+      { to: "Lucknow", distance: "500 km", time: "24 Hours", type: "Direct Expressway Route" },
+      { to: "Kanpur", distance: "450 km", time: "18-24 Hours", type: "Direct Highway Transit" }
     ],
     faqs: [
       { q: "How do you handle multi-story apartment moves in Noida?", a: "Our crews are trained in building association lift protocols, loading bay permissions, and floor-safety regulations." }
@@ -97,14 +99,12 @@ export const LOCATIONS_DATA = {
     city: "Delhi NCR",
     state: "National Capital Region",
     status: "Transit & Delivery Network",
-    title: "Packers and Movers in Delhi | Shri Balaji Packers & Movers",
-    metaDescription: "Trusted packers and movers services in Delhi NCR. Intercity moves to and from Kanpur and across Uttar Pradesh.",
+    title: "Packers and Movers in Delhi | SHREE BALAJI PACKERS AND MOVERS",
+    metaDescription: "Trusted packers and movers services in Delhi NCR. Intercity moves to and from Lucknow, Kanpur and across Uttar Pradesh.",
     heroBadge: "Interstate Hub",
     headline: "Packers & Movers Delhi NCR",
-    subheadline: "Connecting Delhi NCR with Kanpur and nationwide destinations with scheduled container movements.",
+    subheadline: "Connecting Delhi NCR with Lucknow, Kanpur and nationwide destinations with scheduled container movements.",
     isPrimary: false,
-    isPlaceholder: true,
-    placeholderNotice: "Note: This location page structure is ready. Specific local branch details and team allocations for Delhi NCR will be updated shortly.",
     localities: [
       { name: "South Delhi", desc: "Premium household relocation" },
       { name: "Dwarka", desc: "Apartment and society moves" },
@@ -112,10 +112,11 @@ export const LOCATIONS_DATA = {
       { name: "Connaught Place", desc: "Commercial & office shifting" }
     ],
     routes: [
+      { to: "Lucknow", distance: "520 km", time: "24 Hours", type: "Daily Direct Line" },
       { to: "Kanpur", distance: "480 km", time: "24 Hours", type: "Daily Direct Line" }
     ],
     faqs: [
-      { q: "Do you offer door-to-door delivery from Delhi to Kanpur?", a: "Yes, our trucks load at your Delhi location and deliver directly inside your home in Kanpur." }
+      { q: "Do you offer door-to-door delivery from Delhi to Lucknow / Kanpur?", a: "Yes, our trucks load at your Delhi location and deliver directly inside your home in Lucknow or Kanpur." }
     ]
   }
 };

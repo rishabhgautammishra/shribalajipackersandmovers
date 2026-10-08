@@ -5,29 +5,28 @@ import { BUSINESS_INFO } from '../data/businessInfo';
 
 const LOCATION_CARDS = [
   {
+    city: "Lucknow",
+    badge: "Headquarters & Hub",
+    badgeColor: "bg-emerald-100 text-emerald-800 border-emerald-200",
+    desc: "Central headquarters in Mansarovar Yojna with complete door-to-door shifting across all Lucknow colonies.",
+    areas: ["Mansarovar Yojna", "Gomti Nagar", "Indira Nagar", "Alambagh", "Hazratganj", "Aashiana"],
+    link: "/packers-movers-lucknow",
+    isActive: true
+  },
+  {
     city: "Kanpur",
     badge: "Primary Operating Hub",
-    badgeColor: "bg-emerald-100 text-emerald-800 border-emerald-200",
+    badgeColor: "bg-blue-100 text-blue-800 border-blue-200",
     desc: "Comprehensive door-to-door moving across all Kanpur sectors, residential colonies & industrial belts.",
     areas: ["Civil Lines", "Kakadeo", "Swaroop Nagar", "Kidwai Nagar", "Kalyanpur", "Barra"],
     link: "/packers-movers-kanpur",
     isActive: true
   },
   {
-    city: "Lucknow",
-    badge: "Regular Corridor Hub",
-    badgeColor: "bg-slate-100 text-slate-700 border-slate-200",
-    desc: "Daily connecting transit routes between Kanpur and Lucknow capital district.",
-    areas: ["Gomti Nagar", "Indira Nagar", "Alambagh", "Hazratganj"],
-    link: "/packers-movers-lucknow",
-    isActive: true,
-    isCorridor: true
-  },
-  {
     city: "Noida & Greater Noida",
     badge: "NCR Branch Network",
     badgeColor: "bg-slate-100 text-slate-700 border-slate-200",
-    desc: "High-rise apartment shifting & corporate moves between Kanpur and Delhi NCR.",
+    desc: "High-rise apartment shifting & corporate moves between UP and Delhi NCR.",
     areas: ["Sector 62", "Sector 50", "Greater Noida West", "Expressway"],
     link: "/packers-movers-noida",
     isActive: true,
@@ -37,7 +36,7 @@ const LOCATION_CARDS = [
     city: "Delhi NCR",
     badge: "Interstate Network",
     badgeColor: "bg-slate-100 text-slate-700 border-slate-200",
-    desc: "Direct container transport connecting Central UP with National Capital Region.",
+    desc: "Direct container transport connecting UP with National Capital Region.",
     areas: ["South Delhi", "Dwarka", "Rohini", "Connaught Place"],
     link: "/packers-movers-delhi",
     isActive: true,
@@ -59,7 +58,7 @@ export default function ServiceLocations() {
             Serving Customers Across Key Locations
           </h2>
           <p className="text-base sm:text-lg text-slate-600 font-normal">
-            Rooted in Kanpur with reliable highway corridors across Uttar Pradesh and Delhi NCR.
+            Headquartered in Lucknow with active operations in Kanpur, Noida, Delhi NCR, and nationwide corridors.
           </p>
         </div>
 
